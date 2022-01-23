@@ -57,5 +57,5 @@ app.use(function(err, req, res, next) {
 });
 
 
-app.listen(3000)
-console.log("Başladı Port 80")
+app.listen(80)
+console.log("Listening Port 80")
